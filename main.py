@@ -1,5 +1,5 @@
 import numpy as np
-from PIL import Image
+from PIL import Image 
 import matplotlib.pyplot as plt
 from skimage.filters import median
 from skimage.morphology import ball
