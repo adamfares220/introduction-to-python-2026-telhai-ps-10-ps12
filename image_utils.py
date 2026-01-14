@@ -5,7 +5,7 @@ from scipy.signal import convolve2d
 def load_image(path):
     """
     Reads an image from a file path and converts it into a NumPy array.
-    """
+    """ 
     # Open the image using PIL
     img = Image.open(path)
     # Convert the image to a NumPy array and return it
